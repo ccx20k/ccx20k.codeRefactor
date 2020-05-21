@@ -10,7 +10,7 @@ body {
 
 /* style for section class HEADER */
 
-section {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -22,7 +22,7 @@ h1 {
     font-size: 48px;
 }
 
-.header nav {
+#header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -42,4 +42,30 @@ li {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+/*container and banner image for page */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.hero img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: cover
+}
+
+/*container and images for linked pages*/
+
+.content {
+    width: ;
+    display: inline-block;
+    margin-left: 20px;
 }
