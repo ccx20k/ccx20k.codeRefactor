@@ -21,8 +21,7 @@ h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-#header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -30,13 +29,16 @@ h1 {
     font-size: 20px;
 }
 
-ul {
+#navList {
     list-style-type: none;
+    margin-top: auto;
 }
 
-li {
+#navList li {
     display: inline-block;
     margin-left: 25px;
+    position: relative;
+     
 }
 
 a {
@@ -65,7 +67,29 @@ a {
 /*container and images for linked pages*/
 
 .content {
-    width: ;
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/*SEO linked page*/
+
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#search-engine-optimization img {
+    max-height: 200px;
+}
+
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 36px;
+    position: absolute;
 }
